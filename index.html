@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <!--Meta data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simon Ruto Simboley Portfolio">
+    <meta name="author" content="Simon Ruto Simboley">
+    <meta name="keywords" content="portfolio">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+     <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="Images/logo.webp">
+    <!--Linking with CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--linking to fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--Linking to icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <title>Simon Ruto Portfolio</title>
+
+ </head>
+ <body>
+    <!--Navbar-->
+    <nav>
+        <div class="left">
+            <a href="/">Simon Ruto</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com/Simon-Ruto" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+            </a>        
+            <a href="http://www.linkedin.com/in/simon-ruto-801606304/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                    <span>Linkedin</span>
+            </a>        
+            <a href="mailto:simonruto04@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+            </a>       
+        </div>
+    </nav>
+    <main>
+          <!--Section 1: Hero-->
+          <section class="hero-section">
+
+            <div class="text">
+             <h2>Hi, I'm Simon</h2>
+             <p> an Economics and Statistics graduate who's now diving into tech.
+                 I've always been into tech in one way or another — from playing games on those old-school button phones to messing around with AI tools today. 
+                 For the longest time, I was just a user. But now, I want to be part of building the stuff I’ve always enjoyed. 
+                 If using tech is the front end, I’m aiming for the back end — where all the cool stuff actually happens.
+              
+            </p>
+              <div class="links">
+                <a href="#skills">
+                  <i class="fa-solid fa-code"></i>
+                  <span>Skills</span>
+                </a>
+              
+
+                <a href="#education">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span>Education</span>
+                </a>
+            
+
+                <a href="#contact">
+                 <i class="fa-solid fa-envelope"></i>
+                  <span>Contact</span>
+                </a> 
+
+            
+              </div>
+           </div>
+
+            
+               <div class="headshot">
+                  <img src="Images/photo .webp"  alt="Simon Ruto Headshot">
+               </div>
+   
+
+
+          </section>
+          <!--Section 2: Skills-->
+          <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+              I posses some basic skills in  HTML(Hper Text Markup Language) and Microsoft Azure Ai.
+              I am currently upskilling and in the near future hope to be proficient in CSS,Javascript,Python,MongoDB and NodeJS
+            </div>
+
+            <div class="cells">
+              <div class="cell"></div>
+              <img src="images/html-logo.webp" alt="html logo">
+              <span>HTML</span>
+
+              <div class="cell"></div>
+              <img src="Images/MAI.webp" alt="Microsoft Azure AI logo">
+              <span>Microsoft Azure AI</span>
+            </div>
+          </section>
+          <!--Section 3: -->
+          <section id="education" class="education-section">
+            <h2>Education and CV</h2>
+            <div class="group">
+              <div class="school"></div>
+              <p>Jan 2013-Nov 2017<br>
+                Segero Adventist High School<br>
+                Sep 2017 - Nove 2021<br>
+                South Eastern Kenya University<br>
+                Bachelors Degree in Economics and Statistics <br>
+                July 2025-July 2025 <br>
+                PLP AI Safari and Microsoft AI Azure <br><br>
+                July 2025- Present<br>
+                PLP Software Development<br><br>
+
+                <a href="#education">
+                  <i class="fa-solid fa-file"></i>
+                  <span>Download CV</span>
+                </a>
+
+              </p>
+              <div class="CV"></div>
+              
+
+            </div>
+          </section>
+          <!--Section 4: Contact-->
+          <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+              <div class="text">
+                <p>
+                  Got a question, an opportunity, or just want to say hello?
+                  I’d love to hear from you!
+                  Whether you’re reaching out about a collaboration, have feedback about my work, or just want to connect, feel free to drop a message using the form below. I check my messages regularly and will do my best to respond as soon as possible.
+                  Please fill in your details so I know how to get back to you:
+                </p>
+              </div>  
+              <form>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="message">Message</label>
+                <textarea  id="message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </section>
+    </main>      
+ </body>
+</html>
